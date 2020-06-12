@@ -10,7 +10,7 @@ async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
 	await typew.edit("UNTUK DI INGAT SAJA\nBUAT YANG BLM TAU BERAPA LAMA PROSES UNREDFLAG ."
-f"\n\nBIASANYA PALING CEPAT ADALAH 1 MALAM\nTHANKS BOSQU")
+f"\n\nBIASANYA PALING CEPAT ADALAH 1 MALAM DAN PALING LAMA ADALAH 1 - 3 HARI\nTHANKS BOSQU")
 
 @register(outgoing=True, pattern='^.whm(?: |$)(.*)')
 async def typewriter(typew):
