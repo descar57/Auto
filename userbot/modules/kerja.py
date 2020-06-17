@@ -54,17 +54,13 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`Starting Bot.........................................................................................................`")
-	sleep(2)
-	await typew.edit("`Halo @all Numpang jualan ya hehehe`")
-	sleep(1)
 	await typew.edit("OPEN WEBSITE PHISING\n"
 			f"M.WHM, WHM, CPANEL\n"
 			 f"\n\n`Send email lancar\nada SSL atau gembok ijo\nBisa request tampilan\nDan masih banyak lagi!!`\n\nHarga?\n\nDomain : Rp. 150.000 `Bisa Request Nama Web`"
 			 f"Domain : Rp. 70.000 `Tidak bisa request nama web alias yang nentuin penjual`\n"
 			 f"Subdomain : Rp. 20.000 `Tidak bisa request apapun kecuali request tampilan website`\n\n"
-			 f"Payment via : [Klik Disini](https://t.me/JejakCheat14/2547)\n"
-			 f"Mau lihat tampilan web ? Yuk ke demo [klik di sini](https://demo.senturypanel.xyz/)\n\n"
+			 f"Payment via : BCA, OVO, TELKOMSEL\n"
+			 f"Mau lihat tampilan web ? Yuk ke demo [klik di sini](https://senturypanel.com/)\n\n"
 			 f"Chat ? [Jefanya Efandchris](http://t.me/Jejakcheat)\n"
 			 f"Join channel telegram yuk! [klik disini](http://t.me/Jejakcheat14)")
 
@@ -73,7 +69,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`Untuk melihat tampilan yang di inginkan\n Silahkan cek`\n https://demo.senturypanel.xyz \n#SenturyBot")
+	await typew.edit("`Untuk melihat tampilan yang di inginkan\n Silahkan cek`\n [Disini](https://senturypanel.com) \n#SenturyBot")
 
 
 # Create by myself @JejakCheat
