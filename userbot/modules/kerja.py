@@ -71,7 +71,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`Tampilan cek di : https://jeenoreal.com/`")
+	await typew.edit("`Tampilan cek di :` https://jeenoreal.com/")
 	
 @register(outgoing=True, pattern='^.proses(?: |$)(.*)')
 async def typewriter(typew):
