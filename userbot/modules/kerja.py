@@ -46,7 +46,7 @@ async def typewriter(typew):
 			 f"1 AKUN : 5.000\n"
 			 f"12 AKUN : 50.000\n"
 			 f"=========================\n"
-			 f"@JeeHeree\n")
+			 f"@JeeHeree")
 
 
 @register(outgoing=True, pattern='^.unredflag(?: |$)(.*)')
@@ -67,11 +67,11 @@ async def typewriter(typew):
 			 f"Whm Extra     : **60.000 / 1 Month**\n"
 			 f"Dukung saya dengan cara join di channel saya! [klik disini](http://t.me/Jejakcheat14)")
 	
-	@register(outgoing=True, pattern='^.tam(?: |$)(.*)')
+@register(outgoing=True, pattern='^.tam(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("Tampilan cek di : https://jeenoreal.com/")
+	await typew.edit("`Tampilan cek di : https://jeenoreal.com/`")
 	
 @register(outgoing=True, pattern='^.proses(?: |$)(.*)')
 async def typewriter(typew):
