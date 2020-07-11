@@ -13,7 +13,7 @@ async def typewriter(typew):
 			 f"=========================\n"
 			 f"WEB PHISING (1 BULAN)\n"
 			 f"\n"
-			 f"DOMAIN : 150.000 FULL GARANSI\n"
+			 f"DOMAIN : 100.000 FULL GARANSI\n"
 			 f"SUBDOMAIN : 20.000 GARANSI 3X\n"
 			 f"*FREE CHECK TRACK DELIVERY\n"
 			 f"=========================\n"
@@ -24,29 +24,29 @@ async def typewriter(typew):
 			 f"EXTRA : 50.000\n"
 			 f"SUPER : 60.000\n"
 			 f"=========================\n"
-			 f"SCRIPT\n"
+			 f"MWHM\n"
 			 f"\n"
-			 f"SCRIPT ALL GAME : 50.000\n"
-			 f"SCRIPT DEMO WEB : 100.000\n"
+			 f"MINI : 80.000\n"
+			 f"MEDIUM : 100.000\n"
+			 f"EXTRA : 120.000\n"
+			 f"SUPER : 150.000\n"
 			 f"=========================\n"
-			 f"YOUTUBE PREMIUM\n"
+			 f"LIVE RESULT\n"
 			 f"\n"
-			 f"1 BULAN : 10.000\n"
-			 f"2 BULAN : 20.000\n"
-			 f"3 BULAN : 30.000\n"
-			 f"6 BULAN : 45.000\n"
-			 f"12 BULAN : 80.000\n"
-			 f"***SYARAT : BELUM PERNAH TRY FREE YOUTUBE PREMIUM**\n"
+			 f"50+ RESULT : 200.000\n"
+			 f"99+ RESULT : 400.000\n"
+			 f"=========================\n"
+			 f"TWITTER\n"
+			 f"\n"
+			 f"50 RESULT : 200.000\n"
+			 f"100 RESULT : 400.000\n"
 			 f"=========================\n"
 			 f"TWITTER\n"
 			 f"\n"
 			 f"1 AKUN : 5.000\n"
 			 f"12 AKUN : 50.000\n"
 			 f"=========================\n"
-			 f"KONTAK\n"
-			 f"\n"
-			 f"CHANNEL : [JNR STORE](https://t.me/JnrStore)\n"
-			 f"OWNER : [JeeNoReall](https://t.me/JeeHeree)")
+			 f"@JeeHeree\n")
 
 
 @register(outgoing=True, pattern='^.unredflag(?: |$)(.*)')
@@ -67,6 +67,12 @@ async def typewriter(typew):
 			 f"Whm Extra     : **60.000 / 1 Month**\n"
 			 f"Dukung saya dengan cara join di channel saya! [klik disini](http://t.me/Jejakcheat14)")
 	
+	@register(outgoing=True, pattern='^.tam(?: |$)(.*)')
+async def typewriter(typew):
+	message = typew.pattern_match.group(0)
+	sleep(0)
+	await typew.edit("Tampilan cek di : https://jeenoreal.com/")
+	
 @register(outgoing=True, pattern='^.proses(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
@@ -74,15 +80,15 @@ async def typewriter(typew):
 	await typew.edit("OK, Saya Akan Mengirimkan result dengan cara LIVE. Jadi nnti kalau sudah proses atau sudah giliranmu akan saya beritahu ~ Terimakasih \n"
 			 f"Info Lebih Lanjut! [klik disini](http://t.me/Jejakcheat14)")
 
-@register(outgoing=True, pattern='^.result(?: |$)(.*)')
+@register(outgoing=True, pattern='^.mwhm(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("Berikut Adalah List Harga dari **LIVE RESULT** \n"
-			 f"100.000 => Mendapatkan **20 Result**\n"
-			 f"150.000 => Mendapatkan **30 Result**\n"
-			 f"200.000 => Mendapatkan **50 Result**\n"
-			 f"400.000 => Mendapatkan **100 Result**\n"
+	await typew.edit("Daftar harga **M.WHM**\n"
+			 f"MINI : 80.000\n"
+			 f"MEDIUM : 100.000\n"
+			 f"EXTRA : 120.000\n"
+			 f"SUPER : 150.000\n"
 			 f"Info Lebih Lanjut! [klik disini](http://t.me/Jejakcheat14)")
 
 
@@ -100,8 +106,8 @@ async def typewriter(typew):
 	sleep(0)
 	await typew.edit("OPEN WEBSITE PHISING\n"
 			f"M.WHM, WHM, CPANEL\n"
-			 f"\n\n`Send email lancar\nada SSL atau gembok ijo\nBisa request tampilan\nDan masih banyak lagi!!`\n\nHarga?\n\nDomain : Rp. 150.000 `Bisa Request Nama Web`"
-			 f"Domain : Rp. 70.000 `Tidak bisa request nama web alias yang nentuin penjual`\n"
+			 f"\n\n`Send email lancar\nada SSL atau gembok ijo\nBisa request tampilan\nDan masih banyak lagi!!`\n\nHarga?\n\nDomain : Rp. 100.000 `Bisa Request Nama Web`"
+			 f"Domain : Rp. 50.000 `Tidak bisa request nama web alias yang nentuin penjual`\n"
 			 f"Subdomain : Rp. 20.000 `Tidak bisa request apapun kecuali request tampilan website`\n\n"
 			 f"Payment via : BCA, OVO, TELKOMSEL\n"
 			 f"Mau lihat tampilan web ? Yuk ke demo [klik di sini](https://senturypanel.com/)\n\n"
