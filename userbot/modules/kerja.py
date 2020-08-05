@@ -55,6 +55,32 @@ async def typewriter(typew):
 	sleep(0)
 	await typew.edit("UNTUK DI INGAT SAJA\nBUAT YANG BLM TAU BERAPA LAMA PROSES UNREDFLAG ."
 f"\n\nBIASANYA PALING CEPAT ADALAH 1 MALAM DAN PALING LAMA ADALAH 1 - 3 HARI\nTHANKS BOSQU")
+	
+@register(outgoing=True, pattern='^.1(?: |$)(.*)')
+async def typewriter(typew):
+	message = typew.pattern_match.group(0)
+	sleep(0)
+	await typew.edit("Silahkan kirim email anda\n"
+			 f"Dan request tampilan yang ingin anda gunakan\n"
+			 f"List Tampilan : [Klik Disini](https://jefanya.com)")
+	
+@register(outgoing=True, pattern='^.2(?: |$)(.*)')
+async def typewriter(typew):
+	message = typew.pattern_match.group(0)
+	sleep(0)
+	await typew.edit("`Ok beri waktu beberapa menit, saya akan membuat kan web phising sesuai dengan tampilan yang anda request`")
+	
+
+	
+@register(outgoing=True, pattern='^.3(?: |$)(.*)')
+async def typewriter(typew):
+	message = typew.pattern_match.group(0)
+	sleep(0)
+	await typew.edit("Website Phising telah dibuat\n\n"
+			 f"Garansi : Full\n"
+			 f"Note : `Garansi tidak akan habis sebelum durasi website telah habis, dan ketika durasi di perpanjang maka garansi akan ikut diperpanjang`\n"
+			 f"Usahakan untuk komplain / menggunakan garansi maka sertakan ORDER ID\n"
+			 f"Order ID ada di data phising, dan itu sangatlah berguna")
 
 @register(outgoing=True, pattern='^.whm(?: |$)(.*)')
 async def typewriter(typew):
@@ -119,7 +145,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`Untuk melihat tampilan yang di inginkan\n Silahkan cek`\n [Disini](https://senturypanel.com) \n#SenturyBot")
+	await typew.edit("`Untuk melihat tampilan yang di inginkan\n Silahkan cek`\n [Disini](https://jefanya.com) \n#SenturyBot")
 
 
 # Create by myself @JejakCheat
