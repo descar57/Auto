@@ -184,7 +184,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`Saya jelaskan untuk perbedaan domain dan subdomain .\n\nDomain (pubg.com) *langsung tidak ada tambahan sama sekali\n\nSubdomain ( blablabla.pubg.com ) *ada Tambahan di depan domainnya .\n\nBot By : [#Jefanya](t.me/JejakCheat)")
+	await typew.edit("`Saya jelaskan untuk perbedaan domain dan subdomain .\n\nDomain (pubg.com) **langsung tidak ada tambahan sama sekali\n\nSubdomain ( blablabla.pubg.com ) **ada Tambahan di depan domainnya .\n\nBot By : [#Jefanya](t.me/JejakCheat)")
 
 # Create by myself @JejakCheat
 @register(outgoing=True, pattern='^.BRI(?: |$)(.*)')
